@@ -18,7 +18,7 @@ in addition to the above, the Windows package will have `envsetup.bat`
 and `envsetup.ps1` scripts that achieve the same as `envsetup.sh`.
 
 
-## Hello, world
+## Exercise 1: Hello, world
 One you're set up, verify everything by compiling your first Cangjie
 program.
 
@@ -37,3 +37,18 @@ printed out to your terminal.
 
 
 
+## Exercise 2: Object orientation
+Have a look at the code in the  `exercise02` directory.
+
+You can compile the entire package with `cjc -p exercise02 -o ex2`, then run
+as before with `./ex2`
+
+### Tasks
+1. Compile the package
+2. Finish the definitions of the `Circle` `area` and `toString`
+   methods.
+3. Define a new class `Square` that is a subclass of `Rectangle`
+
+## Exercise 3: Functional programming and threads
+
+	
