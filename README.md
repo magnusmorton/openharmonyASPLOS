@@ -49,9 +49,9 @@ as before with `./ex2`
 3. Define a new class `Square` that is a subclass of `Rectangle`
 
 ## Exercise 3: Functional programming
-Take a look at `expr.cj` in the `exercise03` directory. We have a simple
-expression language represented with an ADT and an evaluator function
-`eval`.
+Take a look at `expr.cj` in the `exercise03` directory. We have a
+simple expression language represented with an algebraic data type
+(ADT) and an evaluator function `eval`.
 
 ### Tasks
 1. Complete the defintion of `eval` so that it evaluates the
