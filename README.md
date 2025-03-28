@@ -5,7 +5,7 @@ Please visit <https://cangjie-lang.cn/en/download> and download the STS version 
 
 ### MacOS and Linux
 Extract the tarball then, in the terminal in the extrated directory,
-type `source envsetup.sh`.
+type `source ${PATH_TO_EXTRACTED_DIR}/envsetup.sh`.
 You should now be good to go. simply type `cjc <filename>` to invoke
 the compiler.
 
@@ -34,6 +34,9 @@ printed out to your terminal.
 
 
 ## Exercise 2: Object orientation
+**For the remaineder of these exercises, your working directory should
+be the root directory of this repository.**
+
 Have a look at the code in the  `exercise02` directory.
 
 You can compile the entire package with `cjc -p exercise02 -o ex2`, then run
