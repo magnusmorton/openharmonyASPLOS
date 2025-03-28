@@ -1,3 +1,5 @@
+package exercise04
+
 enum Expr {
     | Literal(Int64)
     | Add(Expr, Expr)
