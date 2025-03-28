@@ -1,10 +1,7 @@
 # Cangjie Tutorial
 
 ## Getting started
-Please visit <https://cangjie-lang.cn>. You can change the language by
-clicking the link/button in the top right corner.
-
-Click "Download" and download the STS version of Cangjie
+Please visit <https://cangjie-lang.cn/en/download> and download the STS version of Cangjie.
 
 ### MacOS and Linux
 Extract the tarball then, in the terminal in the extrated directory,
