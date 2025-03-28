@@ -1,12 +1,12 @@
-enum Expr {
+enum Expression {
     | Literal(Int64)
-    | Add(Expr, Expr)
-    | Sub(Expr, Expr)
-    | Mul(Expr, Expr)  
+    | Add(Expression, Expression)
+    | Sub(Expression, Expression)
+    | Mul(Expression, Expression)  
 }
 
 
-func eval(e: Expr) : Int64 {
+func eval(e: Expression) : Int64 {
     match (e) {
         case Literal(i) => i
         case Add(l, r) => 0 // TODO
