@@ -49,6 +49,19 @@ as before with `./ex2`
    methods.
 3. Define a new class `Square` that is a subclass of `Rectangle`
 
-## Exercise 3: Functional programming and threads
+## Exercise 3: Functional programming
+Take a look at `expr.cj` in the `exercise03`. We have a simple
+expression language represented with an ADT and an evaluator function
+`eval`.
+
+### Tasks
+1. Complete the defintion of `eval` so that it evaluates the
+   expression language with reasonable semantics.
+2. Add some new expression types to the enum, and update `eval` to
+   support them. How about one with a different
+   number of arguments?
+   
+## Exercise 4: Concurrency
+
 
 	
