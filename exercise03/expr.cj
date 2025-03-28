@@ -16,6 +16,6 @@ func eval(e: Expr) : Int64 {
 }
 
 main() {
-    let simple = Add(Literal(9), Literal(10))
-    eval(expr)
+    let expr = Add(Literal(9), Literal(10))
+    println(eval(expr))
 }
