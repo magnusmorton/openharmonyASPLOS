@@ -50,7 +50,7 @@ as before with `./ex2`
 3. Define a new class `Square` that is a subclass of `Rectangle`
 
 ## Exercise 3: Functional programming
-Take a look at `expr.cj` in the `exercise03`. We have a simple
+Take a look at `expr.cj` in the `exercise03` directory. We have a simple
 expression language represented with an ADT and an evaluator function
 `eval`.
 
@@ -62,6 +62,11 @@ expression language represented with an ADT and an evaluator function
    number of arguments?
    
 ## Exercise 4: Concurrency
+There is an implemented version of `expr.cj` in the `exercise04`
+directory. Look at `main()` for an example of how to use `spawn` in
+Cangjie.
+
+### Tasks
+1. Parallelise `eval` using `spawn` and `Future.get()`
 
 
-	
