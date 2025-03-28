@@ -70,3 +70,26 @@ Cangjie.
 1. Parallelise `eval` using `spawn` and `Future.get()`
 
 
+## Exercise 5: Metaprogramming
+ `exercise05/expr.cj`
+contains the toy expression language again, but now with a call to
+macro that allows you to create `Expression`s with infix syntax.
+
+`exercise05_macro` contains a macro package, with the macro
+definition and a recursive helper function.
+
+To compile the macro package:
+
+`cjc --compile-macro -p exercise05_macro`
+
+To compile exercise 5:
+
+`cjc -p exercise05 -o ex5`
+
+### Tasks
+1. compile the macro package and exercise 5 and run it
+2. Extend the `transform` function in `macros.cj` to support the other
+   `Expression` types.
+
+## Exercise 6: Mobile development in OpenHarmony
+We'll do it live!
