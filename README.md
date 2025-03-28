@@ -1,8 +1,7 @@
 # Cangjie Tutorial
 
 ## Getting started
-Please visit (the official Cangjie
-website)[https://cangjie-lang.cn]. You can change the language by
+Please visit <https://cangjie-lang.cn>. You can change the language by
 clicking the link/button in the top right corner.
 
 Click "Download" and download the STS version of Cangjie
